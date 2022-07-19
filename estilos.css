@@ -1,0 +1,222 @@
+
+/*#formulario { 
+margin: auto;
+width: 50%;
+text-align: center;
+
+}
+
+*/
+
+/* #redesSociales {
+  margin: auto !important;
+  width: 100px;
+  background-color: brown;
+} */
+
+textarea {resize: none;}
+
+#contenedorform {padding: 12px !important;}
+
+
+#parrafofotoppal {
+  max-width: fit-content;
+  padding: 0px;
+  margin: 0px 12px 0px 12px;
+
+}
+
+.margentexto {margin-left: 12px;
+margin-right: 12px;
+text-align: justify;
+text-align-last: center;
+}
+
+.textocajagris {
+  text-align: justify;
+  text-align-last: center;
+  margin: 15px;
+}
+
+.aredes {margin-bottom: 16px !important;}
+
+#formulario h1 { font-size:15px;
+
+
+}
+
+html {margin: 0;}
+body { margin: 0;
+  padding: 0;
+
+}
+
+/*
+  .card { margin-top: 75px !important;
+    
+ 
+  }
+*/
+  #creditos {position: absolute;
+bottom: 30px;
+right: 3px;}
+
+#marca {color: white;}
+
+/*.card {background-color: rgba(240, 128, 128, 0.036) !important;
+  margin: auto;
+  max-width: 50%;}
+*/
+  .imagenApps  {
+    display: block;
+    margin: 0px auto;
+  }
+
+  input[type="number"] {
+    width:80px;
+ }
+
+ #cardAppStore {
+  margin: auto;
+
+  max-width: 50%;
+  background-color: rgba(240, 128, 128, 0.036);
+ }
+
+
+
+ #fotopal {width: 100% !important;
+  height: 400px;}
+
+
+  #botoncontact {text-align: center;
+   
+}
+  #comentarios  {resize: none;}
+
+  #formaform {border-radius: 5px;
+  padding: 10px;}
+
+
+  #botons {  display: block;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(70%);
+    
+}
+
+
+#cardimc {margin: auto;
+  margin-top: 50px;
+  text-align: center;}
+  
+  #textoimc {text-align: justify !important;}
+
+
+
+  @media only screen and (min-width: 900px){
+
+    #fotopaltablet  {
+     display: none;
+   }
+
+
+  }
+
+
+  @media only screen and (max-width: 900px){
+
+    #fotopal  { 
+     display: none;
+   }
+   #fotopaltablet  {
+    width: 100%;
+  }
+   
+  }
+
+
+@media only screen and (max-width: 700px){
+  .imagenApps  {
+    width: 70%;
+  }
+ }
+
+
+#h6 {
+  text-align: center;
+  color: red;
+}
+
+
+ @media only screen and (max-width: 375px){
+  .imagenApps  {
+    width: 100%;
+  }
+
+
+ }
+
+ 
+ @media only screen and (max-width: 500px){
+  .cartelitos  {
+    flex-direction: column;
+row-gap: 2em;
+  }
+
+  .redessociales {width: fit-content;
+  align-self: center;
+}
+
+ }
+ @media only screen and (max-width: 800px){
+
+ #caru  {
+  width: 70% !important;
+}
+
+#cardimc  {
+display: flex;
+flex-direction: column;
+row-gap: 15px;
+
+}
+
+#parrafofotoppal {
+  max-width: fit-content;
+  padding: 0px;
+  margin: 0px 12px 0px 12px;
+
+}
+
+
+#carta1 {width: 100% !important;}
+
+ }
+
+ #items {height: 110px !important;
+padding: 2px;}
+
+ .carousel-item p {font-size: 15px;}
+
+ @media only screen and (max-width: 575px){
+
+  #items  {
+   height: 50px !important;
+ }
+  }
+
+  @media only screen and (max-width: 340px){
+
+    #items  {
+     display: none !important;
+   }
+    }
+
+    /*#margenfoto {padding: 0px;}*/
+
